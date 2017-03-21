@@ -1,0 +1,17 @@
+{
+  "extends": ["warp"],
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "module": true,
+    "require": true,
+    "global": true
+  },
+  "rules": {
+    "func-style": 0
+  }
+}

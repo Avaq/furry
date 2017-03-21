@@ -1,0 +1,22 @@
+{
+  "name": "furry",
+  "version": "0.0.0",
+  "description": "Fast curry with cyclical placeholder semantics",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && echo Soon™",
+    "lint": "eslint index",
+    "release": "npm outdated --long && xyz --edit --repo git@github.com:Avaq/furry --tag 'X.Y.Z' --increment"
+  },
+  "author": "Aldwin Vlasblom <aldwin.vlasblom@gmail.com> (https://github.com/Avaq)",
+  "license": "WTFPL",
+  "files": [],
+  "devDependencies": {
+    "benchmark": "^2.1.3",
+    "eslint": "^3.18.0",
+    "eslint-config-warp": "^1.2.0",
+    "lodash": "^4.17.4",
+    "ramda": "^0.23.0",
+    "xyz": "^2.1.0"
+  }
+}
