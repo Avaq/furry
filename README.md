@@ -2,6 +2,22 @@
 
 Fast¹ curry with cyclical² placeholder semantics
 
+```js
+const {_, curry} = require('furry');
+
+const a = 1, b = 2, c = 3;
+
+const f = curry((a, b, c) => a - b * c);
+
+[
+  f(a, b, c),
+  f(_, _, c, _)(b, a),
+  f(_)(_)(c)(_)(b)(a),
+  f(_, _, c, _, b, a)
+]
+.every(x => x === -5)
+```
+
 ## `1` Fast
 
 ```text
