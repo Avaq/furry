@@ -9,7 +9,7 @@
     "release": "npm outdated --long && xyz --edit --repo git@github.com:Avaq/furry --tag 'X.Y.Z' --increment"
   },
   "author": "Aldwin Vlasblom <aldwin.vlasblom@gmail.com> (https://github.com/Avaq)",
-  "license": "WTFPL",
+  "license": "MIT",
   "files": [],
   "devDependencies": {
     "benchmark": "^2.1.3",
