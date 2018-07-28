@@ -1,5 +1,7 @@
 # furry
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Avaq/furry.svg)](https://greenkeeper.io/)
+
 Fast¹ `curry` and `unstage` with *cyclical placeholder semantics*²
 
 ```js
